@@ -1,0 +1,20 @@
+{
+  "name": "mapply-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Mapply mindmap service - AI 도구에서 마인드맵 생성/편집",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mapply-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "keywords": ["mcp", "mindmap", "mapply", "ai", "claude"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.0",
+    "firebase-admin": "^13.7.0"
+  }
+}
